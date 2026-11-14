@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="skillscope banner">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a202a" stroke-width="1"/></pattern>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff" stop-opacity="0.14"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="320" fill="#0d1117"/>
+<rect width="1200" height="320" fill="url(#grid)" opacity="0.55"/>
+<rect width="760" height="320" fill="url(#fade)"/>
+<g fill="none" stroke="#262c36" stroke-width="1.5"><path d="M0 52H104L136 84H248"/><path d="M0 268H88L120 236H212"/><path d="M980 0V36L1012 68H1200"/><path d="M1140 320V288L1108 256H1200"/></g>
+<g fill="#58a6ff"><circle cx="136" cy="84" r="4"/><circle cx="120" cy="236" r="4"/><circle cx="1012" cy="68" r="4"/><circle cx="1108" cy="256" r="4"/></g>
+<text x="64" y="82" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" letter-spacing="3.2" fill="#8b949e">AGENT SKILL AUDIT  /  2026</text>
+<text x="62" y="166" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="-2" fill="#f0f6fc">skillscope</text>
+<text x="64" y="212" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#8b949e">Your agent didn't get dumber.</text>
+<text x="64" y="244" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="650" fill="#58a6ff">Its context window got eaten.</text>
+<rect x="692" y="62" width="446" height="186" rx="16" fill="#161b22" stroke="#262c36"/>
+<text x="718" y="94" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#8b949e">CONTEXT WINDOW</text>
+<rect x="722" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.22"/><rect x="750" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.35"/><rect x="778" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.48"/><rect x="806" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.61"/><rect x="834" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.22"/><rect x="862" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.35"/><rect x="890" y="112" width="24" height="44" rx="5" fill="#58a6ff" opacity="0.48"/><rect x="918" y="112" width="24" height="44" rx="5" fill="#f85149" opacity="0.61"/><rect x="946" y="112" width="24" height="44" rx="5" fill="#f85149" opacity="0.22"/><rect x="974" y="112" width="24" height="44" rx="5" fill="#f85149" opacity="0.35"/>
+<rect x="1004" y="112" width="108" height="44" rx="6" fill="#3fb950" fill-opacity="0.12" stroke="#3fb950" stroke-opacity="0.55"/>
+<text x="1020" y="140" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#3fb950">FREE</text>
+<path d="M718 176H1112" stroke="#262c36" stroke-width="1"/>
+<text x="718" y="206" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8b949e">10 skills loaded</text>
+<text x="718" y="230" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="650" fill="#f85149">How many earn their place?</text>
+<circle cx="1074" cy="286" r="30" fill="none" stroke="#58a6ff" stroke-width="3"/>
+<line x1="1096" y1="308" x2="1124" y2="320" stroke="#58a6ff" stroke-width="5" stroke-linecap="round"/>
+<text x="64" y="298" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" letter-spacing="1.4" fill="#8b949e">12 RULES   ·   0 DEPENDENCIES   ·   0 NETWORK CALLS   ·   MIT</text>
+</svg>

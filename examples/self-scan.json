@@ -1,0 +1,200 @@
+{
+  "tool": "skillscope",
+  "version": "0.1.0",
+  "generated_at": "2026-11-14T22:45:23+08:00",
+  "root": "/Users/yunlong/Desktop/yunlong/workproject/yunze/AI-Hot-project/skillscope",
+  "budget": 8000,
+  "token_estimate": "heuristic: CJK ~1 char/token, others ~4 chars/token; NOT a tokenizer",
+  "summary": {
+    "skills": 5,
+    "average_score": 80.6,
+    "estimated_tokens": 848,
+    "budget_remaining": 7152,
+    "findings": 8
+  },
+  "slim_first": [
+    {
+      "name": "device-log-analyzer",
+      "estimated_tokens": 288
+    },
+    {
+      "name": "skillscope",
+      "estimated_tokens": 233
+    },
+    {
+      "name": "git-commit-helper",
+      "estimated_tokens": 177
+    }
+  ],
+  "skills": [
+    {
+      "name": "skillscope",
+      "path": "/Users/yunlong/Desktop/yunlong/workproject/yunze/AI-Hot-project/skillscope/SKILL.md",
+      "score": 100,
+      "grade": "A",
+      "estimated_tokens": 233,
+      "description": "Use when auditing a collection of Agent Skills, or when a coding agent feels slow because too many skills are loaded. Scores each SKILL.md, estimates context cost and shows what to slim first.",
+      "findings": []
+    },
+    {
+      "name": "secret-leak",
+      "path": "/Users/yunlong/Desktop/yunlong/workproject/yunze/AI-Hot-project/skillscope/skillscope/samples/bad/secret-leak/SKILL.md",
+      "score": 35,
+      "grade": "D",
+      "estimated_tokens": 103,
+      "description": "Use when the user needs a quick deployment helper for a public repository with a hard-coded credential.",
+      "findings": [
+        {
+          "code": "REF001",
+          "severity": "warn",
+          "message": "正文引用了不存在的 tools/not-committed.sh",
+          "fix": "补齐文件或改成真实相对路径"
+        },
+        {
+          "code": "SEC001",
+          "severity": "error",
+          "message": "疑似 GitHub token（命中位置 240）",
+          "fix": "删除凭据；若是占位符，改成 <YOUR_TOKEN> 这类不可执行写法"
+        },
+        {
+          "code": "DEMO001",
+          "severity": "info",
+          "message": "没有示例或可运行 demo",
+          "fix": "加 examples/ 或一段无需凭据即可复现的命令"
+        }
+      ]
+    },
+    {
+      "name": "vague-helper",
+      "path": "/Users/yunlong/Desktop/yunlong/workproject/yunze/AI-Hot-project/skillscope/skillscope/samples/bad/vague-helper/SKILL.md",
+      "score": 68,
+      "grade": "C",
+      "estimated_tokens": 47,
+      "description": "helper",
+      "findings": [
+        {
+          "code": "FM002",
+          "severity": "error",
+          "message": "缺少 name 字段",
+          "fix": "补 name: <小写连字符标识>"
+        },
+        {
+          "code": "TRIG001",
+          "severity": "warn",
+          "message": "description 过短或没有触发条件（当前 6 字符）",
+          "fix": "写成『Use when ... / 当用户 ... 时使用』，并说明输入与产出"
+        },
+        {
+          "code": "REF001",
+          "severity": "warn",
+          "message": "正文引用了不存在的 scripts/missing-tool.py",
+          "fix": "补齐文件或改成真实相对路径"
+        },
+        {
+          "code": "META001",
+          "severity": "info",
+          "message": "缺少 version 字段",
+          "fix": "补 version: 0.1.0"
+        },
+        {
+          "code": "DEMO001",
+          "severity": "info",
+          "message": "没有示例或可运行 demo",
+          "fix": "加 examples/ 或一段无需凭据即可复现的命令"
+        }
+      ]
+    },
+    {
+      "name": "git-commit-helper",
+      "path": "/Users/yunlong/Desktop/yunlong/workproject/yunze/AI-Hot-project/skillscope/skillscope/samples/good/git-commit-helper/SKILL.md",
+      "score": 100,
+      "grade": "A",
+      "estimated_tokens": 177,
+      "description": "Use when the user asks to write or review a Conventional Commit message. Turns a staged diff into one scoped, single-purpose commit line.",
+      "findings": []
+    },
+    {
+      "name": "device-log-analyzer",
+      "path": "/Users/yunlong/Desktop/yunlong/workproject/yunze/AI-Hot-project/skillscope/skillscope/samples/good/log-analyzer/SKILL.md",
+      "score": 100,
+      "grade": "A",
+      "estimated_tokens": 288,
+      "description": "Use when the user pastes device, BLE, firmware or app logs and wants a phased root-cause timeline. Produces a full command inventory, an HTML report and concrete next checks.",
+      "findings": []
+    }
+  ],
+  "rule_catalog": [
+    {
+      "code": "FM001",
+      "severity": "error",
+      "title": "Frontmatter 存在",
+      "why": "Agent 靠 frontmatter 决定是否加载 skill"
+    },
+    {
+      "code": "FM002",
+      "severity": "error",
+      "title": "name 字段",
+      "why": "没有稳定标识，无法去重与引用"
+    },
+    {
+      "code": "FM003",
+      "severity": "error",
+      "title": "description 字段",
+      "why": "description 是唯一的触发依据"
+    },
+    {
+      "code": "TRIG001",
+      "severity": "warn",
+      "title": "触发条件清晰",
+      "why": "过短或不带触发词的描述会让 skill 永远不被唤起"
+    },
+    {
+      "code": "TRIG002",
+      "severity": "warn",
+      "title": "description 不过长",
+      "why": "描述越长，常驻上下文成本越高"
+    },
+    {
+      "code": "SIZE001",
+      "severity": "warn",
+      "title": "正文可渐进披露",
+      "why": "超长正文应拆到 references/ 按需加载"
+    },
+    {
+      "code": "SIZE002",
+      "severity": "info",
+      "title": "正文偏长",
+      "why": "提醒关注上下文占用"
+    },
+    {
+      "code": "REF001",
+      "severity": "warn",
+      "title": "引用的文件存在",
+      "why": "指向不存在脚本的 skill 会直接执行失败"
+    },
+    {
+      "code": "SEC001",
+      "severity": "error",
+      "title": "无敏感凭据",
+      "why": "skill 会被整体注入上下文，泄露风险最高；命中即封顶 D"
+    },
+    {
+      "code": "DUP001",
+      "severity": "warn",
+      "title": "不与其它 skill 重复",
+      "why": "近重复 skill 会互相抢触发、浪费预算"
+    },
+    {
+      "code": "META001",
+      "severity": "info",
+      "title": "带 version 字段",
+      "why": "便于跟踪规则变更"
+    },
+    {
+      "code": "DEMO001",
+      "severity": "info",
+      "title": "有可运行示例",
+      "why": "无需真实账号即可验证，决定冷启动转化"
+    }
+  ]
+}

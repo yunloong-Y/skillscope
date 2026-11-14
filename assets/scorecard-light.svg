@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="skillscope demo scorecard">
+<rect width="900" height="320" rx="14" fill="#f6f8fc"/>
+<text x="32" y="42" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="750" fill="#111827">$ python3 -m skillscope demo</text>
+<text x="32" y="68" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#6b7280">615 estimated tokens  ·  7,385 left of an 8,000 budget  ·  8 findings</text>
+<rect x="32" y="67" width="836" height="44" rx="9" fill="#ffffff" stroke="#dbe3ef"/>
+<rect x="46" y="76" width="30" height="26" rx="6" fill="#dc2626"/>
+<text x="61" y="94" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#ffffff">D</text>
+<text x="92" y="94" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="650" fill="#111827">secret-leak</text>
+<rect x="400" y="83" width="310" height="14" rx="7" fill="#dbe3ef"/>
+<rect x="400" y="83" width="108.5" height="14" rx="7" fill="#dc2626" opacity="0.85"/>
+<text x="730" y="94" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#dc2626">35</text>
+<text x="790" y="94" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#6b7280">3 findings</text><rect x="32" y="119" width="836" height="44" rx="9" fill="#ffffff" stroke="#dbe3ef"/>
+<rect x="46" y="128" width="30" height="26" rx="6" fill="#d97706"/>
+<text x="61" y="146" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#ffffff">C</text>
+<text x="92" y="146" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="650" fill="#111827">vague-helper</text>
+<rect x="400" y="135" width="310" height="14" rx="7" fill="#dbe3ef"/>
+<rect x="400" y="135" width="210.8" height="14" rx="7" fill="#d97706" opacity="0.85"/>
+<text x="730" y="146" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#d97706">68</text>
+<text x="790" y="146" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#6b7280">5 findings</text><rect x="32" y="171" width="836" height="44" rx="9" fill="#ffffff" stroke="#dbe3ef"/>
+<rect x="46" y="180" width="30" height="26" rx="6" fill="#16a34a"/>
+<text x="61" y="198" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#ffffff">A</text>
+<text x="92" y="198" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="650" fill="#111827">device-log-analyzer</text>
+<rect x="400" y="187" width="310" height="14" rx="7" fill="#dbe3ef"/>
+<rect x="400" y="187" width="310.0" height="14" rx="7" fill="#16a34a" opacity="0.85"/>
+<text x="730" y="198" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#16a34a">100</text>
+<text x="790" y="198" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#6b7280">0 findings</text><rect x="32" y="223" width="836" height="44" rx="9" fill="#ffffff" stroke="#dbe3ef"/>
+<rect x="46" y="232" width="30" height="26" rx="6" fill="#16a34a"/>
+<text x="61" y="250" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#ffffff">A</text>
+<text x="92" y="250" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="650" fill="#111827">git-commit-helper</text>
+<rect x="400" y="239" width="310" height="14" rx="7" fill="#dbe3ef"/>
+<rect x="400" y="239" width="310.0" height="14" rx="7" fill="#16a34a" opacity="0.85"/>
+<text x="730" y="250" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#16a34a">100</text>
+<text x="790" y="250" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#6b7280">0 findings</text>
+<text x="32" y="308" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#6b7280">Heuristic estimate, not tokenizer output. Generated from the built-in sample skills.</text>
+</svg>
