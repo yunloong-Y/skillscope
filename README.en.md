@@ -1,5 +1,5 @@
-![skillscope · light](assets/banner-light.svg#gh-light-mode-only)
-![skillscope · dark](assets/banner-dark.svg#gh-dark-mode-only)
+![skillscope · light](https://github.com/yunloong-Y/skillscope/raw/main/assets/banner-light.svg#gh-light-mode-only)
+![skillscope · dark](https://github.com/yunloong-Y/skillscope/raw/main/assets/banner-dark.svg#gh-dark-mode-only)
 
 # skillscope
 
@@ -41,8 +41,8 @@ No upstream clone, no GitHub token, no API key, no network. Python 3.9+ is all y
 
 Real output of `python3 -m skillscope demo` (2 good + 2 deliberately broken samples):
 
-![demo scorecard · light](assets/scorecard-light.svg#gh-light-mode-only)
-![demo scorecard · dark](assets/scorecard-dark.svg#gh-dark-mode-only)
+![demo scorecard · light](https://github.com/yunloong-Y/skillscope/raw/main/assets/scorecard-light.svg#gh-light-mode-only)
+![demo scorecard · dark](https://github.com/yunloong-Y/skillscope/raw/main/assets/scorecard-dark.svg#gh-dark-mode-only)
 
 ```text
 级   分     Skill                          估算 tok       问题

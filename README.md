@@ -1,5 +1,5 @@
-![skillscope · 浅色](assets/banner-light.svg#gh-light-mode-only)
-![skillscope · 深色](assets/banner-dark.svg#gh-dark-mode-only)
+![skillscope · 浅色](https://github.com/yunloong-Y/skillscope/raw/main/assets/banner-light.svg#gh-light-mode-only)
+![skillscope · 深色](https://github.com/yunloong-Y/skillscope/raw/main/assets/banner-dark.svg#gh-dark-mode-only)
 
 # skillscope
 
@@ -42,8 +42,8 @@ python3 -m skillscope rules                        # 列出全部规则
 
 `python3 -m skillscope demo` 的真实输出（内置 2 好 2 坏样本）：
 
-![demo 评分卡 · 浅色](assets/scorecard-light.svg#gh-light-mode-only)
-![demo 评分卡 · 深色](assets/scorecard-dark.svg#gh-dark-mode-only)
+![demo 评分卡 · 浅色](https://github.com/yunloong-Y/skillscope/raw/main/assets/scorecard-light.svg#gh-light-mode-only)
+![demo 评分卡 · 深色](https://github.com/yunloong-Y/skillscope/raw/main/assets/scorecard-dark.svg#gh-dark-mode-only)
 
 ```text
 级   分     Skill                          估算 tok       问题
