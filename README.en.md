@@ -114,7 +114,7 @@ Times are GMT+8, 2026-11-14. Stars come from `https://api.github.com/repos/{owne
 ```text
 skillscope/
 ├── SKILL.md                     # this repo is itself an Agent Skill (self-scan: 100)
-├── assets/                      # dual-theme banner + demo scorecard (SVG)
+├── assets/                      # dual-theme banner/scorecard SVG + OG cards PNG + generator
 ├── skillscope/                  # Python package, zero third-party dependencies
 │   ├── frontmatter.py           # minimal YAML frontmatter parser
 │   ├── scan.py                  # SKILL.md discovery
@@ -125,7 +125,10 @@ skillscope/
 │   └── samples/                 # 2 good + 2 broken built-in samples
 ├── tests/                       # 25 unittest cases
 ├── examples/                    # pre-generated HTML / JSON
-├── docs/WHY-NOW.md              # provenance for the trend data
+├── docs/
+│   ├── WHY-NOW.md               # trend data provenance
+│   ├── DISCUSSION-en.md         # upstream discussion posts (EN / 中文)
+│   └── SOCIAL-PREVIEW.md        # OG card spec + upload notes
 ├── README.md                    # 中文
 ├── pyproject.toml
 └── LICENSE (MIT)
@@ -136,6 +139,12 @@ skillscope/
 ```bash
 python3 -m unittest discover -s tests -v     # 25 tests, OK
 ```
+
+## Further reading
+
+- [Why now](docs/WHY-NOW.md) — facts and opinions kept apart; every number carries its source and fetch time
+- [Upstream Discussions post · English](docs/DISCUSSION-en.md) / [中文](docs/DISCUSSION-zh.md) — copy-paste body plus publishing rules and target communities (**draft only, not published**)
+- [Social preview](docs/SOCIAL-PREVIEW.md) — OG card spec, regeneration, upload path and verification
 
 ## Roadmap (planned, not implemented)
 

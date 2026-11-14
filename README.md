@@ -121,7 +121,7 @@ A   100   git-commit-helper              177          0
 ```text
 skillscope/
 ├── SKILL.md                     # 本仓库自身就是一个 Agent Skill（自举 100 分）
-├── assets/                      # 双主题 banner + demo 评分卡（SVG）
+├── assets/                      # 双主题 banner/评分卡 SVG + 分享卡片 PNG + 生成脚本
 ├── skillscope/                  # Python 包，零第三方依赖
 │   ├── frontmatter.py           # 极简 YAML frontmatter 解析
 │   ├── scan.py                  # 发现 SKILL.md
@@ -132,7 +132,10 @@ skillscope/
 │   └── samples/                 # 2 好 + 2 坏内置样本
 ├── tests/                       # 25 个 unittest 用例
 ├── examples/                    # 已生成好的示例 HTML / JSON
-├── docs/WHY-NOW.md              # 选题依据：真实热度数据 + 来源 + 判断边界
+├── docs/
+│   ├── WHY-NOW.md               # 选题依据：真实热度数据 + 来源 + 判断边界
+│   ├── DISCUSSION-zh.md         # 上游 Discussions 冷启动文案（中 / 英）
+│   └── SOCIAL-PREVIEW.md        # 分享卡片规格与上传说明
 ├── README.en.md
 ├── pyproject.toml
 └── LICENSE (MIT)
@@ -143,6 +146,12 @@ skillscope/
 ```bash
 python3 -m unittest discover -s tests -v     # 25 tests, OK
 ```
+
+## 更多文档
+
+- [选题依据与热度溯源](docs/WHY-NOW.md) —— 事实与判断分开写，每个数字都带来源与抓取时间
+- [上游 Discussions 冷启动文案 · 中文](docs/DISCUSSION-zh.md) / [English](docs/DISCUSSION-en.md) —— 正文可直接复制，另附发布纪律与目标上游清单（**目前仅为拟稿，未发布**）
+- [Social preview 说明](docs/SOCIAL-PREVIEW.md) —— 分享卡片规格、重生成方式、上传路径与验证方法
 
 ## 路线图（计划，尚未实现）
 
