@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillscope"
+version = "0.1.0"
+description = "Audit Agent Skills for quality and context cost, fully offline."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+keywords = ["agent", "skills", "llm", "context", "lint", "audit"]
+
+[project.scripts]
+skillscope = "skillscope.cli:main"
+
+[tool.setuptools]
+packages = ["skillscope"]
+
+[tool.setuptools.package-data]
+skillscope = [
+    "samples/good/*/SKILL.md",
+    "samples/good/*/references/*.md",
+    "samples/bad/*/SKILL.md",
+]
