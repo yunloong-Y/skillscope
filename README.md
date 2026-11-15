@@ -150,7 +150,7 @@ python3 -m unittest discover -s tests -v     # 25 tests, OK
 ## 更多文档
 
 - [选题依据与热度溯源](docs/WHY-NOW.md) —— 事实与判断分开写，每个数字都带来源与抓取时间
-- [上游 Discussions 冷启动文案 · 中文](docs/DISCUSSION-zh.md) / [English](docs/DISCUSSION-en.md) —— 正文可直接复制，另附发布纪律与目标上游清单（**目前仅为拟稿，未发布**）
+- [上游 Discussions 冷启动文案 · 中文](docs/DISCUSSION-zh.md) / [English](docs/DISCUSSION-en.md) —— 附发布纪律与目标上游清单；英文版已发至 [learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754)，中文版待发（[实际发布正文](docs/DISCUSSION-en.published.md)）
 - [Social preview 说明](docs/SOCIAL-PREVIEW.md) —— 分享卡片规格、重生成方式、上传路径与验证方法
 
 ## 路线图（计划，尚未实现）
