@@ -18,7 +18,7 @@
 **可选头图**（部分社群会过滤图片，省略也不影响）：
 `https://github.com/yunloong-Y/skillscope/raw/main/assets/social-preview.png`
 
-**状态**：2026-11-14 拟稿，**中文版仍未发布**。英文版已于 2026-11-15 10:08 发到 [amosblomqvist/learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754)（Show and tell），实际发布正文见 [`DISCUSSION-en.published.md`](DISCUSSION-en.published.md)。按「一社区一稿」原则，**不要再向 learnharness 发中文版**；中文版留给中文社区。
+**状态**：两版均已发布。英文版 2026-11-15 10:08 → [amosblomqvist/learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754)（Show and tell）；中文版 2026-11-15 10:19 → [HelloGitHub「推荐项目」#4361](https://github.com/521xueweihan/HelloGitHub/discussions/4361)。实际发布正文分别存 [`DISCUSSION-zh.published.md`](DISCUSSION-zh.published.md) / [`DISCUSSION-en.published.md`](DISCUSSION-en.published.md)。按「一社区一稿」原则，**两篇都不要重发到各自社区**；若再找新社区需另写角度，不要复用同一段。
 
 --- 以下为正文 ---
 

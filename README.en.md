@@ -143,7 +143,7 @@ python3 -m unittest discover -s tests -v     # 25 tests, OK
 ## Further reading
 
 - [Why now](docs/WHY-NOW.md) — facts and opinions kept apart; every number carries its source and fetch time
-- [Upstream Discussions post · English](docs/DISCUSSION-en.md) / [中文](docs/DISCUSSION-zh.md) — copy-paste body plus publishing rules; English version is [live at learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754), Chinese still a draft ([exact published text](docs/DISCUSSION-en.published.md))
+- [Upstream Discussions post · English](docs/DISCUSSION-en.md) / [中文](docs/DISCUSSION-zh.md) — copy-paste body plus publishing rules; both versions are live: [EN at learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754), [中文 at HelloGitHub #4361](https://github.com/521xueweihan/HelloGitHub/discussions/4361). Exact published texts: [EN](docs/DISCUSSION-en.published.md) / [中文](docs/DISCUSSION-zh.published.md)
 - [Social preview](docs/SOCIAL-PREVIEW.md) — OG card spec, regeneration, upload path and verification
 
 ## Roadmap (planned, not implemented)

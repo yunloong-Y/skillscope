@@ -18,7 +18,7 @@
 **Optional header image** (some communities strip images — it is safe to omit):
 `https://github.com/yunloong-Y/skillscope/raw/main/assets/social-preview.png`
 
-**Status**: English version **published** on 2026-11-15 10:08 CST to [amosblomqvist/learnharness discussions #754](https://github.com/amosblomqvist/learnharness/discussions/754) (category: Show and tell). The Chinese version is still an unpublished draft. The exact text that went out, plus the two adaptations made from the draft below, is archived in [`DISCUSSION-en.published.md`](DISCUSSION-en.published.md). Per the one-post-per-community rule, **do not post this English draft again to learnharness**.
+**Status**: English version **published** on 2026-11-15 10:08 CST to [amosblomqvist/learnharness discussions #754](https://github.com/amosblomqvist/learnharness/discussions/754) (category: Show and tell). The Chinese version is still an unpublished draft. The exact text that went out, plus the two adaptations made from the draft below, is archived in [`DISCUSSION-en.published.md`](DISCUSSION-en.published.md). Per the one-post-per-community rule, **do not post this English draft again to learnharness**. The Chinese version went to [HelloGitHub #4361](https://github.com/521xueweihan/HelloGitHub/discussions/4361) (推荐项目) at 10:19 CST on the same day — exact text in [`DISCUSSION-zh.published.md`](DISCUSSION-zh.published.md).
 
 --- COPY BELOW ---
 
