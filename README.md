@@ -135,6 +135,7 @@ skillscope/
 ├── docs/
 │   ├── WHY-NOW.md               # 选题依据：真实热度数据 + 来源 + 判断边界
 │   ├── DISCUSSION-zh.md         # 上游 Discussions 冷启动文案（中 / 英）
+│   ├── DISCUSSION-skills-en.md  # 第三站新角度拟稿：38 个真实 Skill 实测（未发布）
 │   └── SOCIAL-PREVIEW.md        # 分享卡片规格与上传说明
 ├── README.en.md
 ├── pyproject.toml
@@ -151,6 +152,7 @@ python3 -m unittest discover -s tests -v     # 25 tests, OK
 
 - [选题依据与热度溯源](docs/WHY-NOW.md) —— 事实与判断分开写，每个数字都带来源与抓取时间
 - [上游 Discussions 冷启动文案 · 中文](docs/DISCUSSION-zh.md) / [English](docs/DISCUSSION-en.md) —— 附发布纪律与目标上游清单；两版已分别发至 [HelloGitHub #4361](https://github.com/521xueweihan/HelloGitHub/discussions/4361) 与 [learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754)（[中](docs/DISCUSSION-zh.published.md) / [英](docs/DISCUSSION-en.published.md) 实际发布正文）
+- [第三站新角度拟稿（未发布）](docs/DISCUSSION-skills-en.md) —— 用 38 个真实 Skill 的实测数据说话，目标 `anthropics/skills` Show and tell；仅起草，未发布
 - [Social preview 说明](docs/SOCIAL-PREVIEW.md) —— 分享卡片规格、重生成方式、上传路径与验证方法
 
 ## 路线图（计划，尚未实现）

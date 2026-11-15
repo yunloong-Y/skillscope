@@ -128,6 +128,7 @@ skillscope/
 ├── docs/
 │   ├── WHY-NOW.md               # trend data provenance
 │   ├── DISCUSSION-en.md         # upstream discussion posts (EN / 中文)
+│   ├── DISCUSSION-skills-en.md  # third-community draft: real 38-skill scan (not published)
 │   └── SOCIAL-PREVIEW.md        # OG card spec + upload notes
 ├── README.md                    # 中文
 ├── pyproject.toml
@@ -144,6 +145,7 @@ python3 -m unittest discover -s tests -v     # 25 tests, OK
 
 - [Why now](docs/WHY-NOW.md) — facts and opinions kept apart; every number carries its source and fetch time
 - [Upstream Discussions post · English](docs/DISCUSSION-en.md) / [中文](docs/DISCUSSION-zh.md) — copy-paste body plus publishing rules; both versions are live: [EN at learnharness #754](https://github.com/amosblomqvist/learnharness/discussions/754), [中文 at HelloGitHub #4361](https://github.com/521xueweihan/HelloGitHub/discussions/4361). Exact published texts: [EN](docs/DISCUSSION-en.published.md) / [中文](docs/DISCUSSION-zh.published.md)
+- [Third-community draft (not published)](docs/DISCUSSION-skills-en.md) — measurement-first angle built on a real 38-skill scan, targeted at `anthropics/skills` Show and tell; draft only
 - [Social preview](docs/SOCIAL-PREVIEW.md) — OG card spec, regeneration, upload path and verification
 
 ## Roadmap (planned, not implemented)
